@@ -29,6 +29,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     font-family: 'MuseoSans', serif;
+    box-shadow: 0 0 150px black;
 }
 
 .title {
