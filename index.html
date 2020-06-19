@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://kit.fontawesome.com/08264f564f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="product-card">
+        <div class="product-card__image">
+            <div class="product-card__logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="product-card__image-shoes">
+                <img id='shoes' src="img/shoes.png" alt="shoes">
+            </div>
+            <div class="product-color">
+                <input type="radio" name="color" value="img/shoes.png">
+                <input type="radio" name="color" value="img/white-shoes.png">
+                <input type="radio" name="color" value="img/red-shoes.png">
+                <input type="radio" name="color" value="img/blue-shoes.png">
+            </div>
+        </div>
+        <div class="product-card__description">
+            <div class="title product__title">
+                Nike SB Stefan Janoski Max
+            </div>
+            <div class="sub-title product__sub-title">
+                Nike SB Stefan Janoski Max
+            </div>
+            <div class="rating">
+                <img src="img/111.png" alt="yellow-stars">
+                <img src="img/111.png" alt="yellow-stars">
+                <img src="img/111.png" alt="yellow-stars">
+                <img src="img/gray-stars.png" alt="gray-stars">
+                <img src="img/gray-stars.png" alt="gray-stars">
+            </div>
+            <div class="drop-down product__drop-down">
+                <div class="drop-down__item drow__size">
+                    <div id="front-size"> Size &nbsp <i class="fas fa-angle-down"></i></div>
+
+                    <ul class="drop-down__ul" id="size">
+                        <li class="drop-down__li">40 EU</li>
+                        <li class="drop-down__li">41 EU</li>
+                        <li class="drop-down__li">42 EU</li>
+                        <li class="drop-down__li">43 EU</li>
+                    </ul>
+                </div>
+                <div class="drop-down__item drow__qty">
+                    <div id="front-qty">Qty &nbsp<i class="fas fa-angle-down"></i></div>
+                    <ul class="drop-down__ul" id="qty">
+                        <li class="drop-down__li">1</li>
+                        <li class="drop-down__li">2</li>
+                        <li class="drop-down__li">3</li>
+                        <li class="drop-down__li">4</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="btn">Add to card</button>
+        </div>
+    </div>
+</body>
+
+</html>
